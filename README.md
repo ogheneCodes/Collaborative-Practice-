@@ -1,7 +1,7 @@
-===================Collaborative Practice=====================
+========================Collaborative Practice=====================
 
-                        Authors
-                    ----------------
+                         🔥Authors🔥
+                    --------------------------
                 
                 1. Oghenemaga Maxwell
 
