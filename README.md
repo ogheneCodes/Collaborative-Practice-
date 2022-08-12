@@ -13,6 +13,10 @@
 
                 5. Micheal Onyeweke
 
+                6. David Onwuli
+
+                7. Wariz Kazzem
+
 
 
 This is a learning platform with the team of ALX learning togther and collaborating to achieve the goal ahead.
