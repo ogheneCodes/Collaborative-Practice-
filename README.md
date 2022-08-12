@@ -5,7 +5,7 @@
                 
                 1. Oghenemaga Maxwell
 
-                2. Oluwale Segun
+                2. Olawale Segun
 
                 3. Chinonye Uzoma
 
