@@ -1,9 +1,9 @@
-#include <stdio.h>
+#includes <stdio.h>
 
 // int integer_add(int x, int y)
 // {
 //     int result;
-//     result = x + y;
+//     result = xclear + y;
 //     return result;
 // }
 // int main()
