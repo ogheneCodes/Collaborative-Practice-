@@ -9,9 +9,9 @@
  */
 int main()
 {
-	char file1 = 'Z';
-	char file2 = 'z';
-	printf("The numeric value of Z is: %d", file1);
-	printf("The numeric value of z is: %d", file2);
+	char ch1 = 'Z';
+	char ch2 = 'z';
+	printf("The numeric value of Z is: %d\n", ch1);
+	printf("The numeric value of z is: %d\n", ch2);
 	return 0;
 }
