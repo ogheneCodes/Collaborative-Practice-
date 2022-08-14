@@ -2,6 +2,8 @@
 
 /**
  * main - code
+ * Description: Program that prints out the
+ * numeric values of char Z and z
  * 
  * return: int
  */
