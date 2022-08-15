@@ -30,6 +30,8 @@
 
                 12. Emmanuel Ufiah
 
+                13. Mercy-Runo
+
 
 
 This is a learning platform with the team of ALX learning togther and collaborating to achieve the goal ahead in learning C Language.
