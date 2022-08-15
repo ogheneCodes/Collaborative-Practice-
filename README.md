@@ -1,7 +1,9 @@
 
 ========================Collaborative Practice=====================
 
-                                🔥Authors🔥
+# Note: Please do not push to the main branch, create your brach and make a pull request when you commit. 
+
+                                🔥**Authors**🔥
                     -------------------------------
                 
                 1. Oghenemaga Maxwell
@@ -20,10 +22,10 @@
 
 
 
-This is a learning platform with the team of ALX learning togther and collaborating to achieve the goal ahead.
+This is a learning platform with the team of ALX learning togther and collaborating to achieve the goal ahead in learning C Language.
 
-**C
-**Python
-**Javascript
-**Bash
-**SQL
++ **C**
++ **Python**
++ **Javascript**
++ **Bash**
++ **SQL**
