@@ -1,4 +1,4 @@
-#includes <stdio.h>
+#include<stdio.h>
 
 // int integer_add(int x, int y)
 // {
@@ -54,11 +54,14 @@
 calculated result.*/
 
 int multiply(int x, int y){
-    int result = x * y;
-    printf("%d * %d = %d", x,y, result);
-    return 0;
+    return x * y;
 }
 
-int main(){
-    multiply(12, 2);
+int main()
+{
+    int a = 12, b = 13;
+    int multiply(int, int);
+    printf("The answer to a and b is: %d", multiply(a, b));
+    return 0;
+    
 }
