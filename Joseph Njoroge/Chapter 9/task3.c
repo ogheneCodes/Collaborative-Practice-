@@ -12,7 +12,7 @@ int main(void)
     x = 6; 
     y = 4;
 
-    printf("The sumof the signed ints x and y is: %d\n", x + y);
+    printf("The sum of the signed ints x and y is: %d\n", x + y);
     return 0;
-    
+
 }
