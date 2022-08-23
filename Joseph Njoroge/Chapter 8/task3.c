@@ -17,3 +17,5 @@ int main(void)
 }
 //from this, the left shift increases the value as it shifts the bits right.
 //The right shift operant decreases the value as it shits the bits right.
+
+//123 << 4      010000111      1110000
