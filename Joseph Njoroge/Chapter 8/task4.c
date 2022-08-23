@@ -14,3 +14,18 @@ int main(void)
     return 0;
 }
 //Trying to make sense of this.
+
+//1111 & 0011   
+
+//1111
+//0011
+//0011   this is for the &
+
+//1111
+//0011
+//1100    this is for the ^ XOR
+
+
+//1111
+//0011  
+//1111    this is for the | 
