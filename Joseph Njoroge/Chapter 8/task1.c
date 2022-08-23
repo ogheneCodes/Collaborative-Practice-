@@ -10,12 +10,11 @@ int main(void)
     int x = 0xEFFF;
     int y = 0x1000;
     
-    printf("The old value of x is: %d\n",x);
-    printf("The old value of y is: %d\n",y);
+    printf("The old value of x is: %d\n",'A');
+    printf("The old value of y is: %d\n",'y');
 
     
-    printf("The new value of x is: %d\n",-x);
-    printf("The new value of y is: %d\n",-y);
+   
 
     return 0;
 }
