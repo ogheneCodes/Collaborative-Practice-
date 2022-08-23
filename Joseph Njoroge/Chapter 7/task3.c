@@ -10,7 +10,7 @@ int main(void)
     int c;
     c = ' ';
     printf("Enter a character:\n(enter K to exit)\n");
-    while (c != 'X') 
+    while (c != 'K') 
     {
         c = getc(stdin);
         putchar(c);
