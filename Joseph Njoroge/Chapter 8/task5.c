@@ -8,9 +8,16 @@ characters entered by the user until the character q is accounted. (Hint: Put x!
 
 int main(void)
 {
-    char c = ' ';
-    c = getchar();
-    c != 'q' ? 1 : 0;
+    char c;
+    printf("Enter a character: ");
+
+    for (c = ' '; c != 'A' &&  c != 'a';)
+    {
+        c = getc(stdin);
+        //printf("%c", c);
+        putchar(c);
+    }
+    printf("\nOut of the loop\n");
 
     return 0;
 }
