@@ -11,12 +11,12 @@ int main(void)
     int x = 0xEFFF;
     int y = 0x1000;
 
-    printf("The value of x in hex format before the ! is %#x\n", x);
+    printf("The value of x in hex format before the ! is %u\n", x);
     printf("The value of x in dec format before the ! is %d\n", x);
     printf("The value of x in decimal format after the ! is %d\n", !x);
     printf("The value of x in dec format before the ! is %d\n", x);
     printf("The value of y in dec format before the ! is %d\n", y);
-    printf("The value of y in decimal format after the ! is %#x\n", !y);
+    printf("The value of y in decimal format after the ! is %u\n", !y);
 
     return 0;
 }
