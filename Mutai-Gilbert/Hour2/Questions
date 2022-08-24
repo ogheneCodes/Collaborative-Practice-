@@ -1,0 +1,9 @@
+Quiz
+1. Can a C compiler see the comments within your C program?
+// Yes
+2. What kind of files does a C compiler actually produce?
+//Binary codes
+3. Does the exit() function return a value? What about the return statement?
+//No it's the return() function. Exit() function terminates a program
+4. What is a header file?
+// declarations of functions used in the C file

@@ -1,0 +1,15 @@
+Quiz
+1. What are the lowest-level and highest-level languages mentioned in this book?
+//low-level example Java, Perl
+//High-level Example C
+2. Can a computer directly understand a program written in C? What do you need to
+translate a program written in C into the machine-understandable code (that is,
+binary code)?
+// No. you need a compiler to change the source code to binary code 
+
+3. If needed, can a C program be reused in another C program?
+// Yes
+
+4. Why do we need the ANSI standard for the C language?
+// Act as a universal standards on guidelines oon how C should be written.
+//defines a group of commonly used C functions that known as the ANSI C standard library.

@@ -1,0 +1,13 @@
+/*
+Write a program that shows the values (in hex) of the
+expressions 0xFFFF^0x8888 , 0xABCD & 0x4567 , and 0xDCBA | 0x1234 .
+*/
+#include <stdio.h>
+
+int main()
+{
+    printf("0xFFFF^0x8888 = %#x\n", 0xFFFF ^ 0x8888);
+    printf("0xABCD & 0x4567 = %#x\n", 0xABCD & 0x4567);
+    printf("0xDCBA | 0x1234 = %#x\n", 0xDCBA | 0x1234);
+    return 0;
+}

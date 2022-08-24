@@ -5,7 +5,8 @@
 int main()
 {
     char B = 'B', y = 'y', e = 'e';
-    printf("B => %c, y => %c, e => %c", B, y, e);
+    // printf("B => %c, y => %c, e => %c", B, y, e);
+     printf("%c%c%c", B, y, e);
     return 0;
 
 
