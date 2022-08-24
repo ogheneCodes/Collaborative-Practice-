@@ -5,7 +5,8 @@ int main(void){
     int x, y;
     x = 0xEFFF;
     y = 0x1000;
-    printf("hex format: %X\n %X\n",~x,~y);
+    printf("hex format: %X\n %x\n",~x,~y);
+    printf("hex format: %X\n %x\n",~x,~y);
     return 0;
 }
 //2. Taking the values of x and y assigned in Exercise 1, write a program that prints out the values of !x and !y by using both the %d and %u formats in the printf()
@@ -47,9 +48,10 @@ int main(void){
 #include <stdio.h>
 int main(void){
     char x;
-    x = ' ';
-    printf("Kindly enter a character %c\n",x);
-    x = getchar();
-    x!='q' ? 1 : 0 ;
-    return 0;
+    printf("Kindly enter a character %c\n");
+    for ( x=' '; x!='q';){
+        x = getchar();
+        putchar(x);
+        return 0;
+}
 }
