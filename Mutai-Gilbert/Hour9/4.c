@@ -4,9 +4,9 @@
 int main(){
     signed int x;
     signed int y;
-    x = 80;
-    y = 98;
-    printf("Display value x in hex format: %x\n",x);
-    printf("Display value y in hex format: %x\n",y);
+    x = -80;
+    y = -98;
+    printf("Display value x in hex format: %x and %d\n",x,x);
+    printf("Display value y in hex format: %x and %d\n",y,y);
     return 0;
 }
