@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - prints the negaion value in decimal
+ * @x: contains the hexadecimal value
+ * @y: contains the hexadecimal value 
+ */
+
 int main(void)
 {
 	int x, y;
