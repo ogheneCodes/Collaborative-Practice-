@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - prints the hex values
+ * @x: contains the value for x
+ * @y: contains the value for y
+ * return 0
+ */
+
 int main(void)
 {
 	int x, y;
