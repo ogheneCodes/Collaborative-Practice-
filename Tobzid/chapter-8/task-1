@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* finding the value of -x
-* and finding the value of -y
+* finding the value of ~x
+* and finding the value of ~y
 * return 0.
 */
 
@@ -11,7 +11,7 @@
      int x = 0xEFFF;
      int y = 0x1000;
 
-     printf("the value after evaluating x is%d\n", -x);
-     printf("the value after evaluating y is %d\n", -y);
+     printf("the value after evaluating x is%d\n", ~x);
+     printf("the value after evaluating y is %d\n", ~y);
      return 0;
  }
