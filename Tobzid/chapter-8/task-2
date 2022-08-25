@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* finding the value of !x
-* and finding the value of !y
+* finding the value of !x.
+* and finding the value of !y.
 * return 0.
 */
 
