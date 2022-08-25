@@ -7,4 +7,5 @@ int main(void)
 	x = 0xEFFF;
 	y = 0x1000;
 	printf("The hex values gotten for x and y are: %X %X\n", x, y);
+	return 0;
 }
