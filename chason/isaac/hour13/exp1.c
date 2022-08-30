@@ -18,7 +18,7 @@ int main()
       printf("\n");
       ptr_str = "Assign a string to a pointer.";
       for ( i=0; *ptr_str; i++)
-                   printf("%s", ptr_str++);
+                   printf("%c", *ptr_str++);
            
       return 0;
       
