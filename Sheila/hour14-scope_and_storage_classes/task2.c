@@ -30,5 +30,6 @@ int main()
                 function_1();
                 printf("While passing the int and double variables:\n x=%d, y=%f\n",x,y);
         }
-        return 0;
+	function_1(1234, 1.234567);
+	return 0;
 }
