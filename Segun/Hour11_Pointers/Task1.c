@@ -6,7 +6,7 @@
  * @y: contains the values for y
  * @z: contains the value for z
  * @pnt: contains the address of variables
- * return 0
+ * return 0 on succes
  */ 
 
 
