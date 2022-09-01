@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main(void)
 {
     char array_ch[10] = {'I', ' ',
                         'l', 'i', 'k', 'e', ' ',
