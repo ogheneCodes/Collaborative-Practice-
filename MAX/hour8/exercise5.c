@@ -19,5 +19,6 @@ int main()
     printf("%c", x);
     }
     printf("\nEnd!");
-    return 0;
+
+    return (0);
 }
