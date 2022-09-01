@@ -47,22 +47,24 @@ continues
 //continues
 //18 067231861x CH14 4.10.2000 11:03 AM Page 227
 //6:
- void function_1()
+ void function_1(int x, double y)
  {
- printf(“From function_1:\n x=%d, y=%f\n”, x, y);
+ printf("From function_1:\n x=%d, y=%f\n", x, y);
  }
 
- main()
+ int main()
  {
  int x = 4321; /* block scope 1*/
 
- function_1();
- printf(“Within the main block:\n x=%d, y=%f\n”, x, y);
+ function_1(x,y);
+ printf("Within the main block:\n x=%d, y=%f\n", x, y);
  /* a nested block */
  {
  double y = 7.654321; /* block scope 2 */
- function_1();
- printf(“Within the nested block:\n x=%d, y=%f\n”, x, y);
-23: }
-24: return 0;
-25: }
+ function_1(x,y);
+ printf("Within the nested block:\n x=%d, y=%f\n", x, y);
+ }
+ return 0;
+ }
+
+/*The values change because of the scope of decalration of the variables*/
