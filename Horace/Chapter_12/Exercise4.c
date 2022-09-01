@@ -9,7 +9,7 @@ int main(){
                         'C','!','\0'};
 
     for(i = 0; array_ch[i]; i++){
-        printf("%c\n", array_ch[i]);
+        printf("%c", array_ch[i]);
     }
     return 0;
 }
