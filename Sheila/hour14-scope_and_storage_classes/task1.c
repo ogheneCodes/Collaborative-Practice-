@@ -15,4 +15,6 @@ int main()
         static float x; //float local variable with permamnent storage
         register int x; //register int variable
         char *ptr_char = 0; //char pointer initialized with null
+
+  printf("sheila");
 }
