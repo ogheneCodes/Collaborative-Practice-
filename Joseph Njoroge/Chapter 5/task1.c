@@ -2,7 +2,7 @@
 
 /**
 * main - puts the given char together using putchar.
-* return 0 when succesfukl.
+* return 0 when succesfull
 *
 */
 
