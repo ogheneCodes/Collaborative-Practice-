@@ -5,17 +5,18 @@
 #include <stdio.h>
  int main()
  {
-    char s[] = "my life is great";
-int i, j = 'a'- 'A';
-i = 0;
-while (s[i]){
-
- if ((s[i] >= 'a') && s[i] <= 'z')
- s[i] -=j;
-   ++i;
+    char str[30];
+    int i, delt = 'a' -'A';
+    printf("Enter a string in uppercase\n");
+    gets(str);
+    i = 0;
+    while (str[i]){
+      if((str[i] >= 'A') && (str[i] <= 'Z'))
+      str[i] += delt;
+      ++i;
+    }
+    printf("The entered string in lowercase\n:");
+    puts(str);
+    return 0;
 }
- 
- printf("The upper case value of s is: %s\n", s);
- 
- return 0;
- }
+
