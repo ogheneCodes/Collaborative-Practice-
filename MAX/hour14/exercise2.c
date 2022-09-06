@@ -9,17 +9,17 @@ int x = 1234;
 double y = 1.234567;
 void function_1(int x, double y)
 {
-    printf("From function_1:\n x=%d, y=%f\n", x, y);
+    printf("From function_1: x=%d, y=%f\n", x, y);
 }
 int main()
 {
     int x = 4321;
     function_1();
-    printf("Within the main block:\n x=%d, y=%f\n", x, y);
+    printf("Within the main block: x=%d, y=%f\n", x, y);
     {
         double y = 7.654321; /* block scope 2 */
         function_1();
-        printf("Within the nested block:\n x=%d, y=%f\n", x, y);
+        printf("Within the nested block: x=%d, y=%f\n", x, y);
     }
     return 0;
 }
