@@ -8,6 +8,7 @@ to print out the character string of the local time on your computer.
 #include <time.h>
 void GetDateTime(void);
 int main(){
+    
     printf("Before the GetDateTime() function is called.\n"); 
     GetDateTime();
     printf("After the GetDateTime() function is called.\n"); 
@@ -15,13 +16,14 @@ int main(){
 }
 
 void GetDateTime(void){
-
+    int i;
+char *t;
 time_t now;
 printf("Within GetDateTime().\n"); time(&now);
-printf("Current date and time is: %s\n",asctime(localtime(&now)));
-printf("Before the GetDateTime() function is called.\n"); 
-GetDateTime();
-printf("After the GetDateTime() function is called.\n"); 
+t = asctime(localtime(&now));
+printf("Current date and time is:");
+for(i=0; t[i];i++) 
+printf("%c",t[i]);
 
 }
 

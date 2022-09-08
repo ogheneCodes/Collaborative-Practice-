@@ -24,7 +24,7 @@ int main (){
 double multDouble(int x, ...){
     va_list arglist;
     int i;
-    double result = 0.0;
+    double result = 1;
     printf("The number of arguments is: %d\n", x);
     va_start (arglist, x);
     for (i=0; i<x; i++)
