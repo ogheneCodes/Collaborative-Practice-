@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**
+/*
 3. Rewrite the program in Listing 7.1. This time, you want the while statement to
 keep looping until the user enters the character K.
 */

@@ -61,3 +61,8 @@ setupCommands = [
 ]
 stopAtEntry = false
 type = "cppdbg"
+
+[nix]
+
+[nix.channel]
+channel = "stable-22_05"
