@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+main()
+{
+printf ("Howdy, neighbor! this is fatima sani.\n");
+return 0;
+}

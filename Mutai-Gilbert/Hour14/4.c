@@ -4,7 +4,7 @@ to print out the previous result of the addition, as well as the counter value.
 /* 14L03.c: Using the static specifier */
 #include <stdio.h>
 /* the add_two function */
-int add_two(int x, int y){
+/*int add_two(int x, int y){
     static int counter = 1;
     printf("This is the function call of %d,\n", counter++);
     return (x + y);
