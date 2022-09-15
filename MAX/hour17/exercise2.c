@@ -29,6 +29,6 @@ int main()
         else
             free(ptr_flt);
     }
-    printf("Done!\n");
+    printf("Both pass, Done!\n");
     return termination;
 }
