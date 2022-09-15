@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -13,6 +14,7 @@ int main(void)
 
 	x = 0xEFFF;
 	y = 0x1000;
+	printf("This is the hex value when you evaluate x: %X and y: %X\n", ~x, ~y);
 	printf("The hex values gotten for x and y are: %X %X\n", x, y);
 	return 0;
 }
