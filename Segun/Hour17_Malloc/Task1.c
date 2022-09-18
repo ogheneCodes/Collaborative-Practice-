@@ -3,7 +3,36 @@
 
 int main(void)
 {
-    int num, i;
+	#include <stdio.h>
+
+/**Write a program to ask the user to enter the total number of bytes he or she wants
+to allocate. Then, initialize the allocated memory with consecutive integers, starting
+from 1. Add all the integers contained by the memory block and print out the final
+result on the screen.*/
+
+int main(void)
+{
+    int *pt, i;
+    int collect, total = 0;
+    printf("Enter the total number of bytes expected:");
+    scanf("%d", &collect);
+    pt = malloc(collect * sizeof(int));
+    for(i=0; i<collect; i++)
+        pt[i] = i + 1;
+    printf("The values in pt are: %d, %d, %d, %d\n", pt[0], pt[1], pt[2], pt[3]);
+    for(i=0; i<collect; i++)
+        total += pt[i];
+    printf("The sum total of all values iterated at collect number of times are %d", total);
+
+    return 0;
+}
+
+
+
+
+/**** THIS WAS THE FIRST METHOD TRIED OUT ****/
+
+ /**int num, i;
     int sum;
     int *ptr;
     printf("Enter the total number of byte you want to allocate\n");
