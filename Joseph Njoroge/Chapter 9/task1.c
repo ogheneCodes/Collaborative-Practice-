@@ -17,6 +17,6 @@ int main(void)
     x = 0xAB78;
     y = 0xAB78;
 
-    printf("The decimal value of x and y are %d and %u respectively.\n", x, y);
+    printf("The decimal value of x and y are %d and %d\n respectively.\n", x, y);
     return 0;
 }

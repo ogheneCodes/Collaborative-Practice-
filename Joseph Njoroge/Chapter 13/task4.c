@@ -11,8 +11,7 @@ int main(void)
 {
     int x , y;
     printf("Enter the 2 values: \n");
-    scanf("%d %d, &x, &y");
-
-    printf("The sum of the ints are: %d", x + y);
+    scanf("%d %d", &x, &y);
+    printf("The sum of the ints are: %d\n", x + y);
     return 0;
 }
