@@ -16,9 +16,9 @@ int main(void)
 	typedef float FLOAT;
 	typedef double DFLOAT;
 
-	printf("%d\n", sizeof(WORD));
-	printf("%d\n", sizeof(SHORT));
-	printf("%d\n", sizeof(LONG));
-	printf("%d\n", sizeof(FLOAT));
-	printf("%d\n", sizeof(DFLOAT));
+	printf("%lu\n", sizeof(WORD));
+	printf("%lu\n", sizeof(SHORT));
+	printf("%lu\n", sizeof(LONG));
+	printf("%lu\n", sizeof(FLOAT));
+	printf("%lu\n", sizeof(DFLOAT));
 }
