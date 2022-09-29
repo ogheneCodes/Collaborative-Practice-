@@ -2,12 +2,9 @@
 Rewrite the program in Listing 18.4. This time, add integers starting at the value of
 MIN_NUM instead of the value of MAX_NUM.
 */
-
 #include <stdio.h>
-
 enum con{MIN_NUM = 0,
 MAX_NUM = 100};
-
 int fRecur(int n); //prototype/ function declaration
 
 	int main()
@@ -24,13 +21,10 @@ int fRecur(int n); //prototype/ function declaration
 	printf("The value returned by fRecur() is %d.\n", sum2);
 	return 0;
 }
-
-
-	
 /*function definition*/
 	int fRecur(int n)
 {
-	if (n == MAX_NUM)
-//	return 0;
-	return fRecur(n - 1) + n;
+	if (n > MAX_NUM)
+	return 0;
+	return fRecur(n + 1) + n;
 }
